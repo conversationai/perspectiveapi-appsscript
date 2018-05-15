@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    // "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "strictNullChecks": true,
+    "outDir": "build/",
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [ "es2017" ]
+  },
+  "include": [ "./src/**/*.ts" ],
+  "exclude": [ "./src/**/*.spec.ts" ],
+}

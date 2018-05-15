@@ -1,0 +1,7 @@
+**/**
+**/node_modules/**
+**/testdata/**
+*.js
+!build/code.js
+!build/*.html
+!build/appsscript.json

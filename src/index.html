@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+    body {background-color: #FFF;}
+    h1   {color: blue;}
+    p    {color: red;}
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+  </head>
+  <body>
+    <?
+      var result = "... World!"
+    ?>
+    <h1>Hello... </h1>
+    <pre><?= JSON.stringify(result) ?></pre>
+  </body>
+</html>

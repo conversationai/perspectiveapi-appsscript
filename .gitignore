@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+node_modules/
+typings/
+npm-debug.*
+tmp/
+.tmp/
+dist/
+.sw[a-z]
+.DS_Store
+build/
+*.js.map
+*.css.map
+yarn-error.log
